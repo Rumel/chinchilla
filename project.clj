@@ -3,9 +3,9 @@
   :url ""
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [compojure "1.3.1"]
-                 [ring/ring-defaults "0.1.2"]]
-  :plugins [[lein-ring "0.8.13"]]
+                 [compojure "1.3.3"]
+                 [ring/ring-defaults "0.1.4"]]
+  :plugins [[lein-ring "0.9.3"]]
   :ring {:handler chinchilla.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
